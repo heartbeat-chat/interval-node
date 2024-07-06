@@ -1,6 +1,5 @@
-import { IntervalActionDefinition } from '@interval/sdk/src/types'
 import Interval, { Layout, Page, io } from '../..'
-import { IntervalRouteDefinitions } from '../../types'
+import { IntervalActionDefinition, IntervalRouteDefinitions } from '../../types'
 import env from '../../env'
 
 const actions: Record<string, IntervalActionDefinition> = {
